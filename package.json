@@ -1,0 +1,18 @@
+{
+  "name": "playwright-docker",
+  "version": "1.0.0",
+  "description": "Repo for issue on running playwright in docker on MAC M1 platform",
+  "main": "index.js",
+  "author": "YudjinSud",
+  "license": "MIT",
+
+  "scripts": {
+    "e2e": "npx playwright test",
+    "e2e.docker": "sh docker-run.sh"
+  },
+
+  "devDependencies": {
+    "@playwright/test": "^1.17.1",
+    "playwright": "^1.17.1"
+  }
+}
