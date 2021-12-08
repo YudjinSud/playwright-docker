@@ -1,5 +1,5 @@
 # playwright-docker
 
-yarn i
+yarn install
 
 yarn e2e.docker
